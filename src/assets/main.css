@@ -1,0 +1,54 @@
+@import './base.css';
+
+#app {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.control {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: center;
+
+  select, button {
+    font-size: 1em;
+    padding: 0.3em 0.5em;
+  }
+}
+
+.gear-info {
+  flex-wrap: wrap;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  input {
+    font-size: 1em;
+    padding: 0.15em;
+  }
+
+  input[type=text] {
+    width: 4.5em;
+  }
+
+  select {
+    width: 4.5em;
+    font-size: 1em;
+    padding: 0.15em;
+  }
+}
+
+.gear-info-item {
+  min-width: 350px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+}
